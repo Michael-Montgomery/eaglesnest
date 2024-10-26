@@ -1,0 +1,8 @@
+.admin-right-content-wrapper {
+    float: right;
+    width: calc(100vw - 300px);
+}
+
+.admin-right-content-wrapper h2{
+    text-align: center;
+}

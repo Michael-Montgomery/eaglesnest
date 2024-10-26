@@ -1,0 +1,61 @@
+#top-header {
+    width: 100vw;
+    height: 100px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    color: var(--secondary);
+    position: sticky;
+}
+
+#top-header p {
+    margin-right: 65vw;
+}
+
+#header-acct-btn {
+    float: right ;
+    
+}
+
+header {
+    height: 50px;
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 1.4em;
+    margin: 0 5vw;
+}
+
+#login-link {
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 5px;
+    border-radius: 8px;
+    justify-self: flex-end;
+    margin-right: 0;
+}
+
+marquee {
+    background-color: #FF474C;
+    font-size: 2em;
+    color: white;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #top-header {
+        height: 80px;
+        font-size: 1.4em;
+    }
+  }

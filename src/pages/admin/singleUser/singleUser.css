@@ -1,0 +1,70 @@
+#back-to-users-link {
+    /* margin-top: 15px;  */
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    background-color: var(--primary);
+    padding: 7px;
+    border-radius: 12px;
+    color: white;
+}
+
+summary {
+    height: 50px;
+    width: 96%;
+    border: 2px solid;
+    padding: 15px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    font-size: 1.4em;
+    border-radius: 12px;
+}
+
+#password-input {
+    display: inline;
+    margin-right: 6px;
+}
+
+#password-input input {
+    border: none;
+    outline: none;
+}
+
+#single-user-payment-table {
+    width: 50%;
+    font-size: 1.2em;
+}
+ 
+#single-user-payment-table thead {
+background-color: var(--primary);
+}
+#single-user-payment-table td {
+    padding: 5px;
+    text-align: center;
+}
+
+#single-user-payment-table tbody tr:nth-child(even) {
+    background-color: #d8d8d8;
+}
+
+#view-all-payments-btn {
+    font-size: 1.4em;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+}
+
+#manage-account-buttons-list {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#manage-account-buttons-list li {
+    display: inline;
+    margin: 10px;
+}
+
+#manage-account-buttons-list li button {
+    font-size: 1.4em;
+}

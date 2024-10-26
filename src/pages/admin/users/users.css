@@ -1,0 +1,36 @@
+#admin-users-list {
+   list-style-type: none;
+   text-align: center;
+   padding-left: 0;
+}
+
+#admin-users-list div {
+    width: 96%;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#admin-users-list div p {
+    display: inline;
+    font-size: 1.5em;
+}
+
+#record-count-span {
+    background-color: var(--primary);
+    color: white;
+    padding: 8px;
+    border-radius: 11px;
+}
+
+.users-list-el-wrapper a {
+    text-decoration: none;
+    background-color: var(--primary);
+    height: 25px;
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
+}

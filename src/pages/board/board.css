@@ -1,0 +1,188 @@
+#boardh2 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 40px;
+    color: var(--primary);
+}
+
+#boardh2 a {
+    color: var(--primary);
+}
+
+#boardh3 {
+    text-align: center;
+    font-size: 3em;
+    color: var(--primary);
+}
+
+
+
+
+#board-members-list {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#board-members-list li {
+    display: inline;
+    margin: 17px;
+}
+
+.member-wrapper {
+    display: inline-block;
+    width: 20vw;
+    height: 300px;
+    border: 2px solid var(--primary);
+    background-color: var(--primary);
+    margin-bottom: 17px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.member-picture-wrapper {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-size: cover;
+    margin-bottom: 50px;
+    border: 3px solid var(--secondary);
+    background-position: 30;
+}
+
+.member-wrapper h4 {
+    font-size: 1.4em;
+    margin-bottom: 0;
+    color: var(--secondary);
+}
+
+.member-wrapper p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: var(--secondary);
+}
+
+
+
+
+
+
+
+
+#member-modal-wrapper {
+    width: 70vw;
+
+}
+
+#member-modal-wrapper h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#member-modal-picture-wrapper {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+#member-modal-wrapper p {
+    font-size: 1.3em;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#member-modal-wrapper button {
+    font-size: 1.8em;
+    padding: 5px;
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 6px;
+}
+
+#member-modal-wrapper button a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #boardh2 {
+        font-size: .8em;
+    }
+
+    #boardh3 {
+        font-size: 2.7em;
+    }
+
+
+    .member-wrapper {
+        width: 90vw;
+        padding-top: 20px;
+    }
+
+    .member-picture-wrapper {
+        width: 175px;
+        height: 175px;
+    }
+
+    .member-wrapper h4 {
+        font-size: 1.6em;
+        
+    }
+
+    .member-wrapper p {
+        font-size: 1.4em;
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
+
+    #member-modal-wrapper {
+        width: 80vw;
+
+    }
+
+    #member-modal-wrapper h3 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    #member-modal-picture-wrapper {
+        height: 200px;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+    #member-modal-wrapper p {
+        font-size: .9em;
+        margin-bottom: 0;
+    }
+
+    #member-modal-wrapper button {
+        font-size: 1.3em;
+    }
+
+   
+
+
+
+
+
+}

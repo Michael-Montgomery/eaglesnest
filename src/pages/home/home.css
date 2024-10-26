@@ -1,0 +1,124 @@
+#teaser-picture-wrapper {
+    height: 60vh;
+    width: 100vw;
+    background-image: url('https://www.redfin.com/blog/wp-content/uploads/2023/05/sky-gallian-B7nsKUoqHu8-unsplash-1189x630.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.homeh2 {
+    text-align: center;
+    color: var(--primary);
+}
+
+#quick-menu-wrapper {
+    /* width: 96vw; */
+    height: 30vh;
+    
+}
+
+#quick-menu-wrapper ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.quick-menu-item-wrapper {
+    display: inline-block;
+}
+
+.quick-menu-item-wrapper p {
+    color: var(--primary);
+    font-size: 1.3em;
+}
+
+#quick-menu-wrapper ul li {
+    display: inline;
+    margin: 0 7vw;
+}
+
+#quick-menu-wrapper ul li button {
+    font-size: 6em;
+    padding: 10px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+    border-radius: 9px;
+}
+
+#quick-menu-wrapper ul li button a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+#home-news-list-wrapper {
+    background-color: var(--primary);
+    padding-bottom: 25px;
+    padding-top: 15px;
+    margin-top: 25px;
+}
+
+#home-news-list-wrapper h2 {
+    color: var(--secondary);
+    text-align: center;
+    font-size: 1.4em;
+}
+
+#home-news-list {
+    text-align: center;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#home-news-list li {
+    display: inline;
+    margin: 0 16px;
+}
+
+.home-news-wrapper {
+    width: 30vw;
+    height: 300px;
+    display: inline-block;
+    border: 1px solid var(--primary);
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.home-news-wrapper h2 {
+    color: var(--primary) !important;
+}
+
+.home-news-wrapper p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .homeh2 {
+        font-size: 3em;
+    }
+
+    #quick-menu-wrapper ul li button {
+        font-size: 8em;
+        padding: 40px;
+        
+    }
+
+    .quick-menu-item-wrapper p {
+        font-size: 1.8em;
+    }
+  }
