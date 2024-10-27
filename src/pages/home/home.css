@@ -96,6 +96,54 @@
     margin: 0 auto;
 }
 
+#helpful-links-title-wrapper {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+    color: var(--primary);
+}
+
+#helpful-links-divs-wrapper {
+    height: 350px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.helpful-links-wrapper {
+    height: 90%;;
+    width: 35%;
+    /* border: 2px dotted red; */
+    background-color: var(--primary);
+}
+
+.helpful-links-wrapper ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    
+}
+
+.helpful-links-wrapper ul li {
+margin-top: 10px;
+}
+
+.helpful-links-wrapper ul li a {
+    font-size: 1.7em;
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.helpful-links-wrapper ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
 
 
 

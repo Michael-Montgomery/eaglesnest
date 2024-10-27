@@ -9,60 +9,105 @@ import welcomeBgVid from '../../assets/beach.mp4'
 
 
 export default function Home() {
-    return(
+    return (
         <>
-        <Header ambush={false} ambushText='In preparation of hurricane Helene, please refresh yourself with our hurricane preparedness page.'></Header>
-        <div id='teaser-picture-wrapper'>
-        <video autoPlay muted loop id='welcome-background-video' playsInline>
+            <Header ambush={false} ambushText='In preparation of hurricane Helene, please refresh yourself with our hurricane preparedness page.'></Header>
+            <div id='teaser-picture-wrapper'>
+                <video autoPlay muted loop id='welcome-background-video' playsInline>
                     <source src={welcomeBgVid} type="video/mp4" />
                 </video>
-        </div>
-        <h2 className='homeh2'>Quick Menu</h2>
-        <div id='quick-menu-wrapper'>
-            <ul>
-                <li>
-                    <div className='quick-menu-item-wrapper'>
-                        <p>View Board</p>
-                        <button><Link to='/board'><FontAwesomeIcon icon={faPeopleGroup}></FontAwesomeIcon></Link></button>
-                    </div>
-                </li>
-                <li>
-                    <div className='quick-menu-item-wrapper'>
-                        <p>View Account</p>
-                        <button><Link to='/login'><FontAwesomeIcon icon={faTableColumns}></FontAwesomeIcon></Link></button>
-                    </div>
-                </li>
-                <li>
-                    <div className='quick-menu-item-wrapper'>
-                        <p>Contact HOA</p>
-                        <button><FontAwesomeIcon icon={faMessage}></FontAwesomeIcon></button>
-                    </div>
-                </li>
-                <li>
-                    <div className='quick-menu-item-wrapper'>
-                        <p>Meetings & Minutes</p>
-                        <button><Link to='/minutes'><FontAwesomeIcon icon={faGavel}></FontAwesomeIcon></Link></button>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div id='home-news-list-wrapper'>
-            <h2>News & Announcements</h2>
-            <ul id='home-news-list'>
-                {
-                    news.map((news, idx) => {
-                        return(
-                            <li key={idx}>
-                                <div className='home-news-wrapper'>
-                                    <h2>{news.title}</h2>
-                                    <p>{news.description}</p>
-                                </div>
-                            </li>
-                        )
-                    })
-                }
-            </ul>
-        </div>
+            </div>
+            <h2 className='homeh2'>Quick Menu</h2>
+            <div id='quick-menu-wrapper'>
+                <ul>
+                    <li>
+                        <div className='quick-menu-item-wrapper'>
+                            <p>View Board</p>
+                            <button><Link to='/board'><FontAwesomeIcon icon={faPeopleGroup}></FontAwesomeIcon></Link></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div className='quick-menu-item-wrapper'>
+                            <p>View Account</p>
+                            <button><Link to='/login'><FontAwesomeIcon icon={faTableColumns}></FontAwesomeIcon></Link></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div className='quick-menu-item-wrapper'>
+                            <p>Contact HOA</p>
+                            <button><FontAwesomeIcon icon={faMessage}></FontAwesomeIcon></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div className='quick-menu-item-wrapper'>
+                            <p>Meetings & Minutes</p>
+                            <button><Link to='/minutes'><FontAwesomeIcon icon={faGavel}></FontAwesomeIcon></Link></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id='home-news-list-wrapper'>
+                <h2>News & Announcements</h2>
+                <ul id='home-news-list'>
+                    {
+                        news.map((news, idx) => {
+                            return (
+                                <li key={idx}>
+                                    <div className='home-news-wrapper'>
+                                        <h2>{news.title}</h2>
+                                        <p>{news.description}</p>
+                                    </div>
+                                </li>
+                            )
+                        })
+                    }
+                </ul>
+            </div>
+            <div id='helpful-links-title-wrapper'>
+                <p>Helpful Links</p>
+            </div>
+            <div id='helpful-links-divs-wrapper'>
+                <div className='helpful-links-wrapper'>
+                    <ul>
+                        
+                        <li>
+                            <Link to='/board'>Eagle's Nest HOA board</Link>
+                        </li>
+                        <li>
+                            <Link to='login'>View my HOA accouont</Link>
+                        </li>
+                        <li>
+                            <Link to='/minutes'>HOA Meeting Information</Link>
+                        </li>
+                        <li>
+                            <a href='http://www.apple.com'>City of Melbourne</a>
+                        </li>
+                        <li>
+                            <a href='http://www.apple.com'>City of Melbourne</a>
+                        </li>
+                    </ul>
+                </div>
+                <div className='helpful-links-wrapper'>
+                    <ul>
+                    
+                        <li>
+                            <a href='http://www.apple.com'>City of Melbourne</a>
+                        </li>
+                        <li>
+                            <a href='http://www.apple.com'>City of Melbourne City Charter</a>
+                        </li>
+                        <li>
+                            <a href='http://www.apple.com'>City of Melbourne Taxes</a>
+                        </li>
+                        <li>
+                            <a href='http://www.apple.com'>City of Melbourne</a>
+                        </li>
+                        <li>
+                            <a href='http://www.apple.com'>City of Melbourne</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </>
     )
 }
