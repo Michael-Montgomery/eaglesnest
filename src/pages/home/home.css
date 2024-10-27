@@ -1,9 +1,12 @@
 #teaser-picture-wrapper {
     height: 60vh;
     width: 100vw;
-    background-image: url('https://www.redfin.com/blog/wp-content/uploads/2023/05/sky-gallian-B7nsKUoqHu8-unsplash-1189x630.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+}
+
+#welcome-background-video {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
 }
 
 .homeh2 {

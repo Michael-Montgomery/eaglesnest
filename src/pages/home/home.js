@@ -5,12 +5,18 @@ import { faGavel, faPeopleGroup, faTableColumns } from '@fortawesome/free-solid-
 import { faMessage } from '@fortawesome/free-regular-svg-icons';
 import { Link } from 'react-router-dom';
 import news from '../../data/news';
+import welcomeBgVid from '../../assets/beach.mp4'
+
 
 export default function Home() {
     return(
         <>
         <Header ambush={false} ambushText='In preparation of hurricane Helene, please refresh yourself with our hurricane preparedness page.'></Header>
-        <div id='teaser-picture-wrapper'></div>
+        <div id='teaser-picture-wrapper'>
+        <video autoPlay muted loop id='welcome-background-video' playsInline>
+                    <source src={welcomeBgVid} type="video/mp4" />
+                </video>
+        </div>
         <h2 className='homeh2'>Quick Menu</h2>
         <div id='quick-menu-wrapper'>
             <ul>
