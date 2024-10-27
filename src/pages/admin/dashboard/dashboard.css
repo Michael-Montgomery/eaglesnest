@@ -1,8 +1,41 @@
 .admin-right-content-wrapper {
     float: right;
-    width: calc(100vw - 300px);
+    width: calc(100vw - 250px);
+    background-color: var(--secondary);
+    height: calc(100vh - 150px);
+    overflow-y: scroll;
 }
 
 .admin-right-content-wrapper h2{
     text-align: center;
+}
+
+.inner-container {
+    width: 96%;
+    height: 225px;
+    margin: 0 auto;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.widget {
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    display: inline-block;
+    border-radius: 12px;
+    color: var(--primary);
+}
+
+.widget-number {
+    text-align: center;
+    font-size: 5em;
+    margin: 0;
+}
+
+.widget-text {
+    text-align: center;
+    font-size: 2em;
 }

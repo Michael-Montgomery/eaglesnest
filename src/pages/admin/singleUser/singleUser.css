@@ -6,18 +6,23 @@
     background-color: var(--primary);
     padding: 7px;
     border-radius: 12px;
-    color: white;
+    color: var(--secondary);
+    margin-left: 25px;
 }
 
 summary {
     height: 50px;
     width: 96%;
-    border: 2px solid;
+    border: 2px solid var(--primary);
+    color: var(--secondary);
     padding: 15px;
     margin-bottom: 10px;
     line-height: 50px;
     font-size: 1.4em;
+    text-align: center;
+    margin: 15px auto;
     border-radius: 12px;
+    background-color: var(--primary);
 }
 
 #password-input {

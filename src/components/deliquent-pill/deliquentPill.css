@@ -1,17 +1,23 @@
 .deliquent-pill {
     background-color: #fd5754;
-    padding: 6px;
+    padding: 2px;
+    padding-bottom: 6px;
     color: white;
     border-radius: 5px;
+    width: 140px;
+    height: 60%;
+    line-height: 30px;
+    float: right;
 }
 
 .on-time-pill {
     background-color: #34c858;
-    padding: 6px;
+    padding: 2px;
+    padding-bottom: 6px;
     color: white;
     border-radius: 5px;
     width: 80px;
-    height: 30px;
+    height: 60%;
     line-height: 30px;
     float: right;
     /* margin-bottom: 100vh; */

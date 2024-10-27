@@ -1,7 +1,7 @@
 #admin-menu-wrapper {
     width: 250px;
-    /* height: calc(100vh - 150px); */
-    height: auto;
+    height: calc(100vh - 150px);
+    /* height: auto; */
     background-color: var(--primary);
     /* padding-top: 15px; */
     float: left;
@@ -29,7 +29,9 @@
 }
 
 #admin-menu-wrapper ul li a.active {
-    /* background-color: var(--secondary); */
-    color: blueviolet
-    /* padding-right: 60%; */
+    background-color: var(--secondary);
+    color: var(--primary);
+    /* width: 250px !important; */
+
+    /* padding: 0 74.7px; */
 }

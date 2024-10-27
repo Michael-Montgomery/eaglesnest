@@ -1,12 +1,19 @@
+#heading {
+    /* color: var(--secondary); */
+}
+
 #admin-users-list {
    list-style-type: none;
    text-align: center;
-   padding-left: 0;
+   /* padding-left: 0; */
+   margin: 0 auto;
 }
 
 #admin-users-list div {
     width: 96%;
-    border: 2px solid black;
+    height: 40px;
+    border: 2px solid var(--primary);
+    background-color: var(--primary);
     margin-bottom: 5px;
     border-radius: 7px;
     display: flex;
@@ -17,11 +24,12 @@
 #admin-users-list div p {
     display: inline;
     font-size: 1.5em;
+    color: var(--secondary);
 }
 
 #record-count-span {
     background-color: var(--primary);
-    color: white;
+    color: var(--secondary);
     padding: 8px;
     border-radius: 11px;
 }
