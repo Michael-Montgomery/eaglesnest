@@ -1,0 +1,54 @@
+.outer-row {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.outer-row > div {
+    height: 300px;
+    width: 40%;
+    background-color: var(--primary);
+    border-radius: 32px;
+}
+
+.outer-row div h2 {
+    text-align: center;
+    color: var(--secondary);
+}
+
+.outer-row div p {
+    text-align: center;
+    font-size: 1.1em;
+    color: var(--secondary);
+}
+
+.outer-row > div > div {
+    border: 2px solid var(--secondary);
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.outer-row div button {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.4em;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.outer-row div button:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.outer-row > div a {
+    color: var(--secondary);
+    
+}

@@ -1,0 +1,19 @@
+form {
+    text-align: center;
+}
+
+label {
+    font-size: 1.4em;
+}
+
+.half {
+    font-size: 1.2em;
+    margin-right: 15px;
+    width: 30vw;
+}
+
+.full {
+    font-size: 1.2em;
+    margin-right: 15px;
+    width: 65vw;
+}

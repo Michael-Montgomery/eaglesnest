@@ -19,7 +19,7 @@ export default function Header(props) {
                
                     <NavLink to='/about'>About</NavLink>
                 
-                    <NavLink>Link</NavLink>
+                    <NavLink to='/resident-dashboard/2 '>rdsh</NavLink>
                 
                     <NavLink>Link</NavLink>
                 

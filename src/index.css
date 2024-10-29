@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--secondary);
 }
 
 code {
@@ -13,10 +14,13 @@ code {
 }
 
 :root {
-  --primary: lightcoral;
-  --secondary: antiquewhite;
+  --primary: #474973;
+  --secondary: #bbc1c6;
 }
 
 .center {
   text-align: center;
 }
+
+
+
