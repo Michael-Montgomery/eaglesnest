@@ -33,7 +33,7 @@ This project is currently under construction with an anticipated delivery date o
 
 ###### Resident Dashboard:
 
-![image of homepage](./readmeAssets/Residents_dashboard.png "Homepage")
+![image of homepage](./readmeAssets/Residents_dashboard.png "Resident Dashboard")
 
 ###### List of tools used:
 
